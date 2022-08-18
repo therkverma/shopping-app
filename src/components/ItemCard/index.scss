@@ -1,0 +1,31 @@
+.item-container {
+    margin: 0 auto;
+    padding: 20px;
+    .item-image-holder {
+        img {
+            height: 180px;
+            width: 120px;
+        }
+    }
+    .item-brand {
+        color: #808080;
+        font-size: 16px;
+    }
+    .item-title, .item-price, .item-size {
+        color: #000000;
+        font-size: 15px;
+    }
+    .add-to-cart-btn {
+        background-color: #2196F3;
+        height: 60px;
+        cursor: pointer;
+        width: 200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin: 10px 0;
+        color: #FFFFFF;
+    }
+}

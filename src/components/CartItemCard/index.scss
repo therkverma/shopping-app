@@ -1,0 +1,27 @@
+.item-container {
+    margin: 0 auto;
+    padding: 20px;
+    .cart-item-card-holder {
+        display: flex;
+    }
+
+    .item-image-holder {
+        img {
+            height: 180px;
+            width: 120px;
+        }
+    }
+    .item-brand {
+        color: #808080;
+        font-size: 16px;
+    }
+    .item-title, .item-price, .item-size {
+        color: #000000;
+        font-size: 15px;
+    }
+    .item-btn-holder {
+        button {
+            margin: 2px 10px;
+        }
+    }
+}
